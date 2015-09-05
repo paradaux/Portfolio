@@ -1,0 +1,51 @@
+.floating-header {
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index: 999;
+}
+
+.name-container {
+	height:50px;
+    background:#3399FF;
+    border:1px solid #6666FF;
+    width:100%;
+}
+
+.name-header{
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.centered-img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 550px;
+}
+
+body { padding-top: 70px; }
+
+.btn-info {
+	position: relative;
+	top: 10px;
+	bottom: :10px;
+	left: 20px;
+	margin: center;
+	width: 60%;
+}
+
+.btn-info > a {
+	color: white;
+	font-weight: bold;;
+}
+
+.thumbnail {
+	position: relative;
+	top: 20px;
+}
+
+.project-image {
+	min-height: 400px;
+}
