@@ -79,7 +79,9 @@
 var d = new Date();
 var myBirthday = 1991;
 var age = Math.abs(d.getFullYear() - myBirthday);
-if (d.getMonth() <= 6 && (d.getDate() < 15 && d.getMonth() <=6)) {age = age -1}; //My birthday is Jul 15th
+if (d.getMonth() < 6 || (d.getDate() < 15 && d.getMonth() == 6)) {
+	age = age -1 //My birthday is Jul 15th
+};
 document.getElementById("age").innerHTML = age.toString() + " years";
 
 // I always use the most recent Ubuntu distro

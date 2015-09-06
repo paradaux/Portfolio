@@ -6,16 +6,16 @@
 }
 
 .name-container {
-	height:50px;
-    background:#3399FF;
-    border:1px solid #6666FF;
+	  height:50px;
+    background:#e3e0cf;
+    border:1px solid #000;
     width:100%;
 }
 
 .name-header{
 	font-size: 35px;
-	font-weight: bold;
-	color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+	color: #000;
 }
 
 .centered-img {
@@ -25,7 +25,10 @@
 	height: 550px;
 }
 
-body { padding-top: 70px; }
+body {
+  padding-top: 70px;
+  background-color: #c5d5cb;
+}
 
 .btn-info {
 	position: relative;
